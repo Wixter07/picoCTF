@@ -157,3 +157,15 @@ e: 65537**
 
 The flag - `picoCTF{sma11_N_n0_g0od_73918962}`
 
+
+
+# substitution1
+
+The text file contained the message and as suggested by the challenge name, we do character substitution to decrypt the message. I could've tried solving this by doing a frequency attack by replacing the most occuring character with "E" and so  on, but I resorted to an automatic monoalphabetic substitution decoder. It gave me the flag as **PICOCTF{FR3ZU3NCY_4774CK5_4R3_C001_6E0659FB}**. I replaced the **Z** in Frequency with **Q** and solved the challenge.
+
+
+![Screenshot (23)](https://github.com/Wixter07/picoCTF/assets/150792650/ebd392cb-9392-4824-bde3-0d601e52c65c)
+
+The flag - `PICOCTF{FR3QU3NCY_4774CK5_4R3_C001_6E0659FB}`
+
+
