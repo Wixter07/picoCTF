@@ -141,3 +141,19 @@ for letter in ALPHABET:
        
 
  The flag- `picoCTF{et_tu?_1ac5f3d7920a85610afeb2572831daa8}`
+
+
+
+# Mind your Ps and Qs
+
+Easy, just paste the values in a RSA decrypter without specifying P and Q values as:- 
+
+**c: 964354128913912393938480857590969826308054462950561875638492039363373779803642185
+n: 1584586296183412107468474423529992275940096154074798537916936609523894209759157543
+e: 65537**
+
+![Screenshot (20)](https://github.com/Wixter07/picoCTF/assets/150792650/3ccb51d2-90d7-4ed7-aa8c-7ee450c3cd43)
+
+
+The flag - `picoCTF{sma11_N_n0_g0od_73918962}`
+
