@@ -224,6 +224,14 @@ Connected using netcat to get the morse code. Translated it using an online tool
 
 The flag - `PICOCTF{M0RS3C0D31SFUN1261438181}`
 
+# Flags
+
+We get a image file with Navy Signal Flags. Used this tool from [dcode](https://www.dcode.fr/maritime-signals-code) and gave the flag inputs to get the flag.
+
+![image](https://github.com/Wixter07/picoCTF/assets/150792650/2b7633ca-1d09-4eda-9196-d9f1db26b7dc)
+
+The flag - `PICOCTF{F1AG5AND5TUFF}`
+
 
 
 
