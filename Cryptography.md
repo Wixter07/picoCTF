@@ -284,6 +284,15 @@ It computed p,q using n,e values and d computed with p,q,e values. Then it decry
 The flag - `picoCTF{proving_wiener_6907362}
 `
 
+# transposition trial
+
+So the we get the message and it seems to have some sort of transposition of character on the flag. Divided the message into chunks of three and moved the third character to the first position in every chunk.
+
+The message - **`heT\fl \g a\s i\icp\CTo\{7F\4NR\P05\1N5\_16\_35\P3X\51N\3_V\091\B0A\E}2\`**
+The decrypted message after transposition - **`The flag is picoCTF{7R4N5P051N6_15_3XP3N51V3_109AB02E}`**
+
+The flag - `picoCTF{7R4N5P051N6_15_3XP3N51V3_109AB02E}`
+
 
 
 
