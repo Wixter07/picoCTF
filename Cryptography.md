@@ -163,9 +163,21 @@ The flag - `picoCTF{sma11_N_n0_g0od_73918962}`
 
 The text file contained the message and as suggested by the challenge name, we do character substitution to decrypt the message. I could've tried solving this by doing a frequency attack by replacing the most occuring character with "E" and so  on, but I resorted to an automatic monoalphabetic substitution decoder. It gave me the flag as **PICOCTF{FR3ZU3NCY_4774CK5_4R3_C001_6E0659FB}**. I replaced the **Z** in Frequency with **Q** and solved the challenge.
 
-
 ![Screenshot (23)](https://github.com/Wixter07/picoCTF/assets/150792650/ebd392cb-9392-4824-bde3-0d601e52c65c)
 
 The flag - `PICOCTF{FR3QU3NCY_4774CK5_4R3_C001_6E0659FB}`
+
+# Hide to See
+
+So used steghide on the image and gave nothing as passphrase. This extracted an **encrypted.txt** file. Read it to get this.
+
+![Screenshot (29)](https://github.com/Wixter07/picoCTF/assets/150792650/dd389e15-b4a4-4bf4-a298-34de82065360)
+
+Used an Atbash decrypter to get the flag
+
+![image](https://github.com/Wixter07/picoCTF/assets/150792650/4e342f07-3b95-4643-829d-e1527e18a63a)
+
+The flag - `picoCTF{atbash_crack_1f84d779}`
+
 
 
