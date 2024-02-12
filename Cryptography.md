@@ -228,7 +228,7 @@ The flag - `PICOCTF{M0RS3C0D31SFUN1261438181}`
 
 We get a image file with Navy Signal Flags. Used this tool from [dcode](https://www.dcode.fr/maritime-signals-code) and gave the flag inputs to get the flag.
 
-![image](https://github.com/Wixter07/picoCTF/assets/150792650/2b7633ca-1d09-4eda-9196-d9f1db26b7dc)
+![image](https://github.com/Wixter07/picoCTF/assets/150792650/b3735d43-cbf0-419d-9321-8c1faace0032)
 
 The flag - `PICOCTF{F1AG5AND5TUFF}`
 
