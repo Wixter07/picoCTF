@@ -216,6 +216,14 @@ The Vigenère Cipher is therefore sometimes called the Alberti Disc or Alberti C
 
 The flag - `picoCTF{b311a50_0r_v1gn3r3_c1ph3r6fe60eaa}`
 
+# tapping
+
+Connected using netcat to get the morse code. Translated it using an online tool to get the flag.
+
+![image](https://github.com/Wixter07/picoCTF/assets/150792650/a071e526-c3a4-46bc-a653-0e081d6d5145)
+
+The flag - `PICOCTF{M0RS3C0D31SFUN1261438181}`
+
 
 
 
