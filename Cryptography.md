@@ -185,6 +185,8 @@ So this is a Certificate Signing Request file. I could've tried running openssl 
 
 ![image](https://github.com/Wixter07/picoCTF/assets/150792650/4a88edca-59d3-4135-90e7-71c4f364bfcb)
 
+The flag - `picoCTF{read_mycert_a7163be8}`
+
 # rotation
 
 Got an encrypted.txt file which had flag like text. Going by the name, the positions are probably rotated so used this multi decoder from [CacheSleuth](https://www.cachesleuth.com/multidecoder/). It has an auto ROT solver, and we got the flag at ROT8
@@ -193,7 +195,28 @@ Got an encrypted.txt file which had flag like text. Going by the name, the posit
 
 The flag - `picoCTF{r0tat1on_d3crypt3d_25d7c61b}`
 
-The flag - `picoCTF{read_mycert_a7163be8}`
+# la cifra de
+
+So we have with us a long text which we got from the netcat connection. Boxentriq cipher identifier didnt give anything but multi decoder from [CacheSleuth](https://www.cachesleuth.com/multidecoder/) gave me the answer in Vigenere. So from the Vigenere decipher we got this
+
+`It is interesting how in history people often receive credit for things they did not create`
+
+`During the course of history, the Vigenère Cipher has been reinvented many times`
+
+`It was falsely attributed to Blaise de Vigenère as it was originally described in 1553 by Giovan Battista Bellaso in his book La cifra del. Sig. Giovan Battista Bellaso`
+
+`For the implementation of this cipher a table is formed by sliding the lower half of an ordinary alphabet for an apparently random number of places with respect to the upper halfpicoCTF{b311a50_0r_v1gn3r3_c1ph3r6fe60eaa}`
+
+`The first well-documented description of a polyalphabetic cipher however, was made around 1467 by Leon Battista Alberti.
+The Vigenère Cipher is therefore sometimes called the Alberti Disc or Alberti Cipher.`
+
+`In 1508, Johannes Trithemius invented the so-called tabula recta (a matrix of shifted alphabets) that would later be a critical component of the Vigenère Cipher`
+
+`Bellaso’s second booklet appeared in 1555 as a continuation of the first. The lower halves of the alphabets are now shifted regularly, but the alphabets and the index letters are mixed by means of a mnemonic key phrase, which can be different with each correspondent.`
+
+The flag - `picoCTF{b311a50_0r_v1gn3r3_c1ph3r6fe60eaa}`
+
+
 
 
 
