@@ -236,18 +236,29 @@ The flag - `PICOCTF{F1AG5AND5TUFF}`
 
 This one was a bit of a hassle. The message.txt file had latitudes and longitudes of loations. I assumed that we need the first letter of this place, but first letter of what? The city or the country name?. So I ploted a table with the first letters of both the city and the country to see which one is useful. And I got the flag from the first letters of the cities using Google Maps.
 
-35.028309, 135.753082 - Kyoto - **K**
-46.469391, 30.740883 - Odesa - **O**
-39.758949, -84.191605 - Dayton - **D**
-41.015137, 28.979530 - Istanbul - **I**
-24.466667, 54.366669 - Abu Dhabi - **A**
-3.140853, 101.693207 - Kuala Lumpur - **K**
-9.005401, 38.763611 - Addis Ababa - **A**
--3.989038, -79.203560 - Loja - **L**
-52.377956, 4.897070 - Amsterdam - **A**
-41.085651, -73.858467 - Sleepy Hollow - **S**
-57.790001, -152.407227 - Kodiak - **K**
-31.205753, 29.924526 - Al Azaritah - **A**
+`35.028309, 135.753082 - Kyoto - **K**`
+
+`46.469391, 30.740883 - Odesa - **O**`
+
+`39.758949, -84.191605 - Dayton - **D**`
+
+`41.015137, 28.979530 - Istanbul - **I**`
+
+`24.466667, 54.366669 - Abu Dhabi - **A**`
+
+`3.140853, 101.693207 - Kuala Lumpur - **K**`
+
+`9.005401, 38.763611 - Addis Ababa - **A**`
+
+`-3.989038, -79.203560 - Loja - **L**`
+
+`52.377956, 4.897070 - Amsterdam - **A**`
+
+`41.085651, -73.858467 - Sleepy Hollow - **S**`
+
+`57.790001, -152.407227 - Kodiak - **K**`
+
+`31.205753, 29.924526 - Al Azaritah - **A**`
 
 Kodiak is a place in Alaska
 
