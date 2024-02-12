@@ -264,5 +264,15 @@ Kodiak is a place in Alaska
 
 The flag - `picoCTF{KODIAK_ALASKA}`
 
+# waves over lambda
+
+The challenge description said that it used a lot of substitutions to encrypt the message. So I pasted the cipher in the automatic Monoalphabetic Substitution Tool from [dcode](https://www.dcode.fr/monoalphabetic-substitution) to get the flag.
+
+![image](https://github.com/Wixter07/picoCTF/assets/150792650/5023fd38-9bf1-4903-898b-5e6659f22e80)
+
+
+The flag - `FREQUENCY_IS_C_OVER_LAMBDA_AGFLCGTYUE`
+
+
 
 
