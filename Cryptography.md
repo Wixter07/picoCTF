@@ -293,6 +293,15 @@ The decrypted message after transposition - **`The flag is picoCTF{7R4N5P051N6_1
 
 The flag - `picoCTF{7R4N5P051N6_15_3XP3N51V3_109AB02E}`
 
+# b00tl3gRSA2
+
+So the challenge description mentioned 
+
+**In RSA d is a lot bigger than e, why don't we use d to encrypt instead of e?**
+
+So I connected using netcat to get the n,c,e values. I opened RSA decrypter tool from dcode and gave the n and c inputs but swapped the e and n inputs. I gave the e value obtained from the connection in d and gave the general e value **65537** in e and got the flag.
+
+The flag - `picoCTF{bad_1d3a5_2152720}`
 
 
 
