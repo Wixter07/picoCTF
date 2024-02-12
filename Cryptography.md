@@ -179,5 +179,13 @@ Used an Atbash decrypter to get the flag
 
 The flag - `picoCTF{atbash_crack_1f84d779}`
 
+# ReadMyCert
+
+So this is a Certificate Signing Request file. I could've tried running openssl to get the flag but I used this CSR Decoder from [sslshopper](https://www.sslshopper.com/csr-decoder.html) and pasted the text in the CSR file to get the flag.
+
+![image](https://github.com/Wixter07/picoCTF/assets/150792650/4a88edca-59d3-4135-90e7-71c4f364bfcb)
+
+The flag - `picoCTF{read_mycert_a7163be8}`
+
 
 
