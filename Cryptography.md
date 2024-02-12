@@ -185,6 +185,14 @@ So this is a Certificate Signing Request file. I could've tried running openssl 
 
 ![image](https://github.com/Wixter07/picoCTF/assets/150792650/4a88edca-59d3-4135-90e7-71c4f364bfcb)
 
+# rotation
+
+Got an encrypted.txt file which had flag like text. Going by the name, the positions are probably rotated so used this multi decoder from [CacheSleuth](https://www.cachesleuth.com/multidecoder/). It has an auto ROT solver, and we got the flag at ROT8
+
+![image](https://github.com/Wixter07/picoCTF/assets/150792650/b6737fc9-77fa-4b41-8739-4c740b2fdb3c)
+
+The flag - `picoCTF{r0tat1on_d3crypt3d_25d7c61b}`
+
 The flag - `picoCTF{read_mycert_a7163be8}`
 
 
