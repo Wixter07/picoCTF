@@ -273,6 +273,17 @@ The challenge description said that it used a lot of substitutions to encrypt th
 
 The flag - `FREQUENCY_IS_C_OVER_LAMBDA_AGFLCGTYUE`
 
+# Daschund Attacks
+
+Connected to the netcat to get the n,c,e values for decrypting the RSA. The hint was small d values. I searched what happens when d values are small, that's when I came to learn about [Weiner's Attack](https://en.wikipedia.org/wiki/Wiener%27s_attack). Though I didn't understand much, I just pasted the values is RSA Decrypted from dcode and luckily I got to see this in the results
+
+![image](https://github.com/Wixter07/picoCTF/assets/150792650/17c8c239-cc92-4b03-be21-fbe657905f61)
+
+It computed p,q using n,e values and d computed with p,q,e values. Then it decrypted using c,d,n values.
+
+The flag - `picoCTF{proving_wiener_6907362}
+`
+
 
 
 
