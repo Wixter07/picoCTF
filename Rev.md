@@ -215,7 +215,19 @@ The flag- `picoCTF{700l1ng_r3qu1r3d_9332a6be}`
 
 
 
+# Bbbbloat
+
+So turned the file into an executable. On running it, it asks for a it's favorite number. If input is wrong, it exits. So fired up the file on Ghidra and there seems to be a check condition. 
 
 
+![image](https://github.com/Wixter07/picoCTF/assets/150792650/3b5ccad6-e8b8-4dc7-b986-244902607a13)
 
+
+So the hex value of **0x86187** translates to **549255** in decimal. So ran the file again and gave the input to get the flag.
+
+
+![Screenshot 2024-02-29 010626](https://github.com/Wixter07/picoCTF/assets/150792650/81316d7b-d713-4ae0-9b92-b670f7851108)
+
+
+The flag - `picoCTF{cu7_7h3_bl047_44f74a60}`
 
