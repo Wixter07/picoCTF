@@ -303,5 +303,28 @@ So I connected using netcat to get the n,c,e values. I opened RSA decrypter tool
 
 The flag - `picoCTF{bad_1d3a5_2152720}`
 
+# No Padding, No Problem
+
+Just a CPA attack
+Look through it [CPA on RSA](https://crypto.stackexchange.com/questions/2323/how-does-a-chosen-plaintext-attack-on-rsa-work)
+
+The flag - `picoCTF{m4yb3_Th0se_m3s54g3s_4r3_difurrent_4005534}`
+
+# rsa_oracle
+
+Same thing as above, just do a CPA on the oracle
+
+# pixelated
+
+Overlay the images and the resulting image shows the flag
+
+The flag - `picoCTF{2a4d45c7}`
+
+# spelling quiz
+
+So the source code we can infer that the flag.txt and study-guide.txt file both have been encrypted with a substitution cipher using a random key.
+
+Giving the contents of both the files to [dcode](https://www.dcode.fr/monoalphabetic-substitution) and it will give the flag 
 
 
+The flag - `picoCTF{PERHAPS_THE_DOG_JUMPED_OVER_WAS_JUST_TIRED}`
