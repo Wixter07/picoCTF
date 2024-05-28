@@ -355,3 +355,8 @@ Calculations based on basic RSA formulas. The last calculation for the plaintext
 
 The flag - `picoCTF{wA8_th4t$_ill3aGal..ode01e4bb}`
 
+# sum-o-primes
+
+So we get **n** nad **x** where x is defined as **x=p+q**. A z3 script should solve this easily if the constraints are set properly to get p and q. Then it's just plain old decryption since we have ciphertext value too. I'll attach the solve script once I learn how it's done on github.
+
+The flag - `picoCTF{pl33z_n0_g1v3_c0ngru3nc3_0f_5qu4r35_3921def5}`
