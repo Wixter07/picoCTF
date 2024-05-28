@@ -328,3 +328,11 @@ Giving the contents of both the files to [dcode](https://www.dcode.fr/monoalphab
 
 
 The flag - `picoCTF{PERHAPS_THE_DOG_JUMPED_OVER_WAS_JUST_TIRED}`
+
+
+
+# basic-mod2
+
+Pretty straight forward
+
+The flag - `picoCTF{1NV3R53LY_H4RD_DADAACAA}`
