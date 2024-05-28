@@ -349,3 +349,9 @@ The message is encrypted thrice. calculate p,q,r values using factordb and the c
 
 The flag - `picoCTF{1_gu3ss_tr1pl3_rs4_1snt_tr1pl3_s3cur3!!!!!!}`
 
+# rsa-pop-quiz
+
+Calculations based on basic RSA formulas. The last calculation for the plaintext should give the flag.
+
+The flag - `picoCTF{wA8_th4t$_ill3aGal..ode01e4bb}`
+
