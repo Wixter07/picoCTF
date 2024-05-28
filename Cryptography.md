@@ -336,3 +336,9 @@ The flag - `picoCTF{PERHAPS_THE_DOG_JUMPED_OVER_WAS_JUST_TIRED}`
 Pretty straight forward
 
 The flag - `picoCTF{1NV3R53LY_H4RD_DADAACAA}`
+
+# Play Nice
+
+The nc gives the ciphertext and the grid. It's a playfair cipher so used this tool from [dcode](https://www.dcode.fr/playfair-cipher). Just remember to change the grid to 6*6 so that it takes the grid characters in.
+
+The flag - `3f4b60ebf36369258d8638d2038c7ad1`
