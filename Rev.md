@@ -237,3 +237,9 @@ Buy a very small number of quinches like a negative 99 or anything and you'll ha
 
 The flag - `picoCTF{b4d_brogrammer_591a895a}`
 
+# Hurry up! Wait!
+
+Ran the file on ghidra and went through the function and **FUN_0010298a** looked interesting and was calling DAT values in a sequence which were flag characters.
+
+The flag - `picoCTF{d15a5m_ftw_0e74cd4}`
+
