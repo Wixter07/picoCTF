@@ -92,7 +92,9 @@ The flag- `PICOCTF{N6R4M_4N41Y515_15_73D10U5_42EA1770}`
  This one was a bit difficult for me to undestand at first but I did understand the first half of the python code given. To understand the rest half of the `b16_encode` function, I referred to this writeup by [vivian dai](https://vivian-dai.github.io/PicoCTF2021-Writeup/Cryptography/New%20Caesar/New%20Caesar.html).
  Wrote the code below with some help from the writeup.
 
- **import string
+
+```
+import string
 
 LOWERCASE_OFFSET = ord("a")
 ALPHABET = string.ascii_lowercase[:16]
@@ -102,41 +104,38 @@ cipher_text = "kjlijdliljhdjdhfkfkhhjkkhhkihlhnhghekfhmhjhkhfhekfkkkjkghghjhlhgh
 def b16_decode(solve):
     dec = ""
     for idx in range(0, len(solve), 2):
-    
         c1 = solve[idx]
         c2 = solve[idx + 1]
-        
         c1 = ALPHABET.index(c1)
         c2 = ALPHABET.index(c2)
-        
         binary1 = "{0:04b}".format(c1)
         binary2 = "{0:04b}".format(c2)
-        
         binary = int(binary1 + binary2, 2)
-
         dec += chr(binary)
-    return dec
+    return dec   
+        
+        
+    
 
 def unshift(c, k):
-   
-    t1 = ord(c) + LOWERCASE_OFFSET
-    t2 = ord(k) + LOWERCASE_OFFSET
-    
+    t1 = ord(c) - LOWERCASE_OFFSET
+    t2 = ord(k) - LOWERCASE_OFFSET
     return ALPHABET[(t1 - t2) % len(ALPHABET)]
 
 def is_ascii(s):
     return len(s) == len(s.encode())
+
 for letter in ALPHABET:
-    
     dec = ""
-    
     for i, c in enumerate(cipher_text):
         dec += unshift(c, letter)
-    
     dec = b16_decode(dec)
-
     if is_ascii(dec) and " " not in dec:
-        print("Flag: picoCTF{%s}" % dec)**
+        print("Flag: picoCTF{%s}" % dec)
+```
+    
+
+
 
        
 
