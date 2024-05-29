@@ -231,3 +231,9 @@ So the hex value of **0x86187** translates to **549255** in decimal. So ran the 
 
 The flag - `picoCTF{cu7_7h3_bl047_44f74a60}`
 
+# Shop
+
+Buy a very small number of quinches like a negative 99 or anything and you'll have enough coins to buy one flag and convert the result **[112 105 99 111 67 84 70 123 98 52 100 95 98 114 111 103 114 97 109 109 101 114 95 53 57 49 97 56 57 53 97 125]** to ASCII.
+
+The flag - `picoCTF{b4d_brogrammer_591a895a}`
+
