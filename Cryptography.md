@@ -314,6 +314,8 @@ The flag - `picoCTF{m4yb3_Th0se_m3s54g3s_4r3_difurrent_4005534}`
 
 Same thing as above, just do a CPA on the oracle
 
+The flag - `picoCTF{su((3ss_(r@ck1ng_r3@_60f50766}`
+
 # pixelated
 
 Overlay the images and the resulting image shows the flag
@@ -360,3 +362,20 @@ The flag - `picoCTF{wA8_th4t$_ill3aGal..ode01e4bb}`
 So we get **n** nad **x** where x is defined as **x=p+q**. A z3 script should solve this easily if the constraints are set properly to get p and q. Then it's just plain old decryption since we have ciphertext value too. I'll attach the solve script once I learn how it's done on github.
 
 The flag - `picoCTF{pl33z_n0_g1v3_c0ngru3nc3_0f_5qu4r35_3921def5}`
+
+# interencdec
+
+Base64 decrypt **YidkM0JxZGtwQlRYdHFhR3g2YUhsZmF6TnFlVGwzWVROclh6ZzJhMnd6TW1zeWZRPT0nCg==** to get **b'd3BqdkpBTXtqaGx6aHlfazNqeTl3YTNrXzg2a2wzMmsyfQ=='** 
+Base64 decrypt **d3BqdkpBTXtqaGx6aHlfazNqeTl3YTNrXzg2a2wzMmsyfQ==** to get **wpjvJAM{jhlzhy_k3jy9wa3k_86kl32k2}**
+Then ROT7 OF **wpjvJAM{jhlzhy_k3jy9wa3k_86kl32k2}** to get the flag
+
+The flag - `picoCTF{caesar_d3cr9pt3d_86de32d2}`
+
+# C3
+
+The flag - `picoCTF{adlibs}`
+
+# Custom encryption
+
+The flag - `picoCTF{custom_d2cr0pt6d_66778b34}`
+
