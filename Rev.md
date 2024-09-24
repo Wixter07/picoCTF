@@ -243,3 +243,38 @@ Ran the file on ghidra and went through the function and **FUN_0010298a** looked
 
 The flag - `picoCTF{d15a5m_ftw_0e74cd4}`
 
+
+# Classic Crackme 0x100
+
+
+```py
+def reverse_transform(output):
+    secret1 = 85
+    secret2 = 51
+    secret3 = 15
+    fix = 97
+    len_output = len(output)
+
+    output = list(output)
+
+    for _ in range(3):  
+        for i_0 in range(len_output):
+            random1 = (secret1 & (i_0 % 255)) + (secret1 & ((i_0 % 255) >> 1))
+            random2 = (random1 & secret2) + (secret2 & (random1 >> 2))
+            
+            original_char = (ord(output[i_0]) - fix - (random2 & secret3) - (secret3 & (random2 >> 4))) % 26
+            output[i_0] = chr(original_char + fix)
+
+    return ''.join(output)
+
+output_str = "mpknnphjngbhgzydttvkahppevhkmpwgdzxsykkokriepfnrdm"
+
+reversed_input = reverse_transform(output_str)
+print("WompWomp:", reversed_input)
+```
+
+Password is ```mmhhkjbakavyaqprqnpbuygdymyyddkratrjsbbceizsgtbcxd```
+
+The flag - `picoCTF{s0lv3_angry_symb0ls_ddcc130f}`
+
+
