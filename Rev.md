@@ -277,8 +277,21 @@ Password is ```mmhhkjbakavyaqprqnpbuygdymyyddkratrjsbbceizsgtbcxd```
 
 The flag - `picoCTF{s0lv3_angry_symb0ls_ddcc130f}`
 
+
 # time
 
 Just debug in Android Studio and the manifest has the flag
 
 The flag - `picoCTF{t1m3r_r3v3rs3d_succ355fully_17496}`
+
+
+# unpackme
+
+
+unpacked the upx packed binary using 
+```bash
+upx -d unpackme-upx -o unpacked
+```
+Then decompiled to get the favorite number which is 754635 and giving at as input while running the binary gives the flag.
+
+The flag - `picoCTF{up><_m3_f7w_5769b54e}`
