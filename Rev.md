@@ -277,4 +277,8 @@ Password is ```mmhhkjbakavyaqprqnpbuygdymyyddkratrjsbbceizsgtbcxd```
 
 The flag - `picoCTF{s0lv3_angry_symb0ls_ddcc130f}`
 
+# time
 
+Just debug in Android Studio and the manifest has the flag
+
+The flag - `picoCTF{t1m3r_r3v3rs3d_succ355fully_17496}`
