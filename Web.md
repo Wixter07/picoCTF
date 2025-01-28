@@ -48,3 +48,12 @@ So concatenating the parts, we get the flag.
  ![Screenshot (64)](https://github.com/Wixter07/HARSHITH-JTP-2/assets/150792650/0874968a-8acf-491a-8ab9-06cec16f003e)
 
  The flag- `picoCTF{ca1cu1at1ng_Mach1n3s_1bb4c}`
+
+
+# Power Cookie
+
+A very normal webpage with a continue as guest button. Assuming from teh chall name, set the `isAdmin` cookie to 1 and refresh the page to get the flag
+
+![Image](https://github.com/user-attachments/assets/02ab1d56-3a23-4244-b960-97f07e89f114)
+
+The flag - `picoCTF{gr4d3_A_c00k13_65fd1e1a}`
