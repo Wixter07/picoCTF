@@ -1,4 +1,4 @@
 # picoCTF
 Contains the challenges I solved in my free time from picoCTF
 
-![image](https://github.com/Wixter07/picoCTF/assets/150792650/46e83665-8819-414e-909b-c422bf375034)
+![Image](https://github.com/user-attachments/assets/d4883551-6dec-4d6d-976d-40d15e7a11d2)
