@@ -126,7 +126,8 @@ The flag- `picoCTF{48}`
 
 So we get a `KeygenMe.class` java file which when decompiled using an online java decompiler will give the code below.
 
-` import java.util.Scanner;
+```java
+ import java.util.Scanner;
 
 public class KeygenMe {
    public static void main(String[] var0) {
@@ -207,7 +208,8 @@ public class KeygenMe {
          System.out.println("Valid key");
       }
    }
-}`
+}
+```
 
 When the characters are read backwards and then concatenated, we obtain the flag.
 
